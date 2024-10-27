@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bd60457-46d7-488c-aebd-5c85176be0af" name="Changes" comment="Readme file updated" />
+    <list default="true" id="3bd60457-46d7-488c-aebd-5c85176be0af" name="Changes" comment="Readme file updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +102,7 @@
       <workItem from="1729989616464" duration="910000" />
       <workItem from="1729992886989" duration="8106000" />
       <workItem from="1730029527542" duration="10478000" />
-      <workItem from="1730056825288" duration="6507000" />
+      <workItem from="1730056825288" duration="7126000" />
     </task>
     <task id="LOCAL-00001" summary="Testing Spring Boot connection">
       <option name="closed" value="true" />
@@ -166,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730064330453</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Readme file updated">
+      <option name="closed" value="true" />
+      <created>1730064649854</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730064649854</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

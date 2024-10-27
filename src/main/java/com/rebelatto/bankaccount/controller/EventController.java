@@ -26,9 +26,9 @@ public class EventController {
     }
 
     @GetMapping("/balance")
-    public ResponseEntity<?> getBalance(@RequestParam Long accountId) {
+    public ResponseEntity<?> getBalance(@RequestParam Long account_id) {
         try {
-            Double balance = bankAccountService.getBalance(accountId);
+            Double balance = bankAccountService.getBalance(account_id);
             return new ResponseEntity<>(balance, HttpStatus.OK);
         } catch (NoSuchElementException e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
