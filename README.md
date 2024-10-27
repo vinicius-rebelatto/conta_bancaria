@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Esta API permite criar, gerenciar e manipular contas bancárias. As operações incluem criação de contas, depósitos, saques, transferências e consulta de saldo.
+Esta API permite criar, gerenciar e manipular contas bancárias. As operações incluem criação de contas, depósitos, saques, transferências e consulta de saldo. Segue um atalho para o diretório da aplicação [aqui](https://github.com/vinicius-rebelatto/conta_bancaria/tree/main/src/main/java/com/rebelatto).
 
 ## Documentação da API
 
