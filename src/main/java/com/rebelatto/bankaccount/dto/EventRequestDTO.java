@@ -6,6 +6,9 @@ public class EventRequestDTO {
     @JsonProperty("type")
     public String type;
 
+    @JsonProperty("orign")
+    public Long origin;
+
     @JsonProperty("destination")
     public Long destination;
 
