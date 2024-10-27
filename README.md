@@ -31,19 +31,12 @@ Quando a aplicação estiver rodando, os endpoints da aplicação podem ser aces
 - `withdraw`: Realiza um saque de uma conta.
 - `transfer`: Transfere fundos de uma conta para outra.
 
-## Modelos de Dados
+## Ferramentas Utilizadas
 
-### BankAccount
+- **Java**: Linguagem de programação utilizada para desenvolver a aplicação.
+- **Spring Boot**: Framework utilizado para simplificar a criação de aplicações Java, fornecendo uma configuração pré-definida para inicialização rápida.
+- **H2 Database**: Banco de dados em memória utilizado para armazenamento de dados local durante o desenvolvimento e testes.
 
-```java
-@Entity
-public class BankAccount {
-    @Id
-    private Long id;
-    private Double balance;
-    // Construtores, getters e setters
-}
-```
 ## Serviços
 
 ### BankAccountService
