@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bd60457-46d7-488c-aebd-5c85176be0af" name="Changes" comment="Swagger added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/controller/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/dto/AccountDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/dto/DepositResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/dto/EventRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/models/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/repository/BankAccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/service/BankAccountService.java" afterDir="false" />
+    <list default="true" id="3bd60457-46d7-488c-aebd-5c85176be0af" name="Changes" comment="Deposit event implemented.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/models/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/models/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/repository/BankAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/repository/BankAccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/service/BankAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/service/BankAccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,9 +78,17 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="data.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/data.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -103,7 +107,8 @@
       <updated>1729965420330</updated>
       <workItem from="1729965421466" duration="1537000" />
       <workItem from="1729989616464" duration="910000" />
-      <workItem from="1729992886989" duration="7675000" />
+      <workItem from="1729992886989" duration="8106000" />
+      <workItem from="1730029527542" duration="5898000" />
     </task>
     <task id="LOCAL-00001" summary="Testing Spring Boot connection">
       <option name="closed" value="true" />
@@ -121,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729993610046</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Deposit event implemented.">
+      <option name="closed" value="true" />
+      <created>1730000877490</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730000877490</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +143,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing Spring Boot connection" />
     <MESSAGE value="Swagger added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Swagger added" />
+    <MESSAGE value="Deposit event implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Deposit event implemented." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/controller/EventController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rebelatto/bankaccount/service/BankAccountService.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
