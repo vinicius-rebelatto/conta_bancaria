@@ -34,6 +34,10 @@ public class EventController {
                 } catch (IllegalArgumentException e) {
                     return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
                 }
+            /*case "transfer":
+                try {
+
+                }*/
             default:
                 return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
